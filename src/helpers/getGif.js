@@ -12,7 +12,7 @@ const gifs = data.map(img=>{
         title: img.title,
         url: img.images.original.url,
     }});
-    console.log(gifs)
+
     return gifs;
 
 }
